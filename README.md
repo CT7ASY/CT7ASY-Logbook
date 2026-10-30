@@ -56,6 +56,13 @@ Antes de atualizar, termina a gravação, guarda o contacto em edição, faz uma
 
 O **backup SQLite não inclui os ficheiros de áudio**. O **backup completo + áudio** inclui a base de dados e as cópias associadas aos contactos. As gravações originais guardadas noutras pastas devem ser copiadas separadamente. Os logins protegidos pelo Windows não acompanham o backup da base; ao mudar de computador, volta a iniciar sessão.
 
+## Tecnologias
+
+- **Python** no serviço local e nas integrações com os rádios.
+- **HTML, CSS e JavaScript** na interface.
+- **SQLite** para guardar contactos e configurações.
+- **PyInstaller e Inno Setup** para o executável e o instalador Windows.
+
 ## Autoria e distribuição
 
 Desenvolvimento: **Eduardo Arraia — CT7ASY**.
